@@ -7,10 +7,11 @@ from django.views.generic import CreateView
 from django.contrib.auth.mixins import UserPassesTestMixin
 from django.shortcuts import redirect
 from django.contrib import messages
+from .forms import UserSignUpForm
 
 
 class UserSignUpView(UserPassesTestMixin, CreateView):
-    form_class = UserCreationForm
+    form_class = UserSignUpForm
     success_url = reverse_lazy("login")
     template_name = "registration/signup.html"
 
