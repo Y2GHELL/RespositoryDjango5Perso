@@ -16,4 +16,6 @@ urlpatterns = [
     path('type/<int:type_id>', views.type.show, name='type-show'),
     path('locality/', views.locality.index, name='locality-index'),
     path('locality/<int:locality_id>', views.locality.show, name='locality-show'),
+    path('price/', views.price.index, name='price-index'),
+    path('price/<int:price_id>', views.price.show, name='price-show'),
 ]

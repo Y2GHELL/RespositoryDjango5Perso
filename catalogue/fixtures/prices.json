@@ -1,0 +1,30 @@
+[
+    {
+        "model": "catalogue.price",
+        "pk": 1,
+        "fields": {
+            "name": "children"
+        }
+    },
+    {
+        "model": "catalogue.price",
+        "pk": 2,
+        "fields": {
+            "name": "senior"
+        }
+    },
+    {
+        "model": "catalogue.price",
+        "pk": 3,
+        "fields": {
+            "name": "article 27"
+        }
+    },
+    {
+        "model": "catalogue.price",
+        "pk": 4,
+        "fields": {
+            "name": "VIP"
+        }
+    }
+]
