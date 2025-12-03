@@ -1,4 +1,4 @@
-﻿[
+[
 {
   "model": "catalogue.location",
   "pk": 1,
@@ -6,7 +6,10 @@
     "slug": "art-center",
     "designation": "Art Center",
     "address": "",
-    "locality": 1,
+    "locality": [
+      "1000",
+      "Bruxelles"
+    ],
     "website": null,
     "phone": null
   }
@@ -18,7 +21,10 @@
     "slug": "atrium",
     "designation": "Atrium",
     "address": "",
-    "locality": 1,
+    "locality": [
+      "1000",
+      "Bruxelles"
+    ],
     "website": null,
     "phone": null
   }
@@ -30,7 +36,10 @@
     "slug": "opera-house",
     "designation": "Opera House",
     "address": "",
-    "locality": 2,
+    "locality": [
+      "1040",
+      "Etterbeek"
+    ],
     "website": null,
     "phone": null
   }
@@ -42,7 +51,10 @@
     "slug": "espace-delvaux-la-venerie",
     "designation": "",
     "address": "",
-    "locality": 4,
+    "locality": [
+      "1170",
+      "Watermael-Boistfort"
+    ],
     "website": null,
     "phone": null
   }
@@ -54,7 +66,10 @@
     "slug": "dexia-art-center",
     "designation": "",
     "address": "",
-    "locality": 1,
+    "locality": [
+      "1000",
+      "Bruxelles"
+    ],
     "website": null,
     "phone": null
   }
@@ -66,7 +81,10 @@
     "slug": "la-samaritaine",
     "designation": "",
     "address": "",
-    "locality": 1,
+    "locality": [
+      "1000",
+      "Bruxelles"
+    ],
     "website": null,
     "phone": null
   }
@@ -78,7 +96,10 @@
     "slug": "espace-magh",
     "designation": "",
     "address": "",
-    "locality": 1,
+    "locality": [
+      "1000",
+      "Bruxelles"
+    ],
     "website": null,
     "phone": null
   }
